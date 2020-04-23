@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.Image;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -59,6 +61,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         getItemPriceButton.setOnClickListener(this); // calling onClick() method
         Button settingsButton = (Button) findViewById(R.id.settingsButton);
         settingsButton.setOnClickListener(this);
+
+        // Get Image View
+        ImageView itemImage = (ImageView) findViewById(R.id.itemImageView);
 
         // Set App Version
         TextView appVersion = (TextView) findViewById(R.id.appVersionTextView);
