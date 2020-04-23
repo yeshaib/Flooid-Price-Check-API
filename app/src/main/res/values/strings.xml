@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Flooid UPC Price Check</string>
+    <string name="activity_name_settings">Settings</string>
+</resources>

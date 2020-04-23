@@ -1,0 +1,2 @@
+rootProject.name='Flooid UPC Price Check'
+include ':app'
